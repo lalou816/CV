@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    background-color: #8ac03f;
+    color: black;
+    padding: 20px;
+    width: 900px;
+    height: 180px;
+}
+
+.profil {
+    box-shadow: 2px 2px 5px black;
+    height: 17%;
+    width: 17%;
+    margin-left: -24%;
+    margin-top: -10%;
+}
+
+.vert1 {
+    height: 32%;
+    width: 32%;
+}
+
+#conteneurImage {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+.head{
+    display: inline-block;
+    top: 50;
+    color: white;
+    font-size: 32pt;
+}
+
+header .tel{
+    position: absolute;
+    top: 40px;
+    left: 650px;
+    text-align: right;
+    display: block;
+    color: white;
+    font-size: 16pt;
+}
+
+header .mail{
+    position: absolute;
+    top: 80px;
+    left: 650px;
+    text-align: right;
+    display: block;
+    color: white;
+    font-size: 16pt;
+}
+
+body {
+    font-family: Calibri;
+    width: 900px;
+}
+
+.titre {
+    color: #00cc99;
+    font-size: 16pt;
+    font-family: Calibri Light;
+    border-bottom: 2px solid grey;
+}
+
+.black {
+    color: black;
+}
+
+.side:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.lside {
+    float: left;
+    background: #d1d1d1;
+    padding: 20px;
+    padding-top: 150px;
+    width: 300px;
+    height: 800px;
+}
+.rside {
+    float: left;
+    padding-left: 20px;
+    width: 598px;
+    height: 800px;
+}
+
+p {
+    color: grey;
+    font-size: 12pt;
+}
+
+#bas {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-left: 588px;
+    margin-top: -126px;
+}
+
+.etudes {
+    text-align: center;
+    color: white;
+    font-size: 22pt;
+    margin-left: -44%;
+}
+
+.vert2 {
+    height: 50%;
+    width: 50%;
+}
+
+footer {
+    background: #8ac03f;
+    width: 898px;
+    height: 40px;
+}
